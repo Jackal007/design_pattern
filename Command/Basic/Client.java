@@ -1,4 +1,4 @@
-package Command;
+package Command.Basic;
 
 public class Client {
 	public static void main(String[] args){
