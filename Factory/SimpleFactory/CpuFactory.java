@@ -1,5 +1,9 @@
 package Factory.SimpleFactory;
 
+import Factory.SimpleFactory.cpu.AmdCpu;
+import Factory.SimpleFactory.cpu.Cpu;
+import Factory.SimpleFactory.cpu.IntelCpu;
+
 public class CpuFactory {
 	public static Cpu createCpu(int type) {
 		Cpu cpu = null;

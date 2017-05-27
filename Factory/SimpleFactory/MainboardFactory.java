@@ -1,5 +1,9 @@
 package Factory.SimpleFactory;
 
+import Factory.SimpleFactory.mainBoard.AmdMainboard;
+import Factory.SimpleFactory.mainBoard.IntelMainboard;
+import Factory.SimpleFactory.mainBoard.Mainboard;
+
 public class MainboardFactory {
 	public static Mainboard createMainboard(int type) {
 		Mainboard mainboard = null;
